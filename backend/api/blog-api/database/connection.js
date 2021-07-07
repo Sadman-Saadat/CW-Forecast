@@ -2,9 +2,9 @@ const mysql=require('mysql2')
 
 const mysqlConnection=mysql.createConnection({
     host: 'localhost',
-    user: "root",
-    password:"",
-    database:"dp",
+    user: "jisan",
+    password:"1234",
+    database:"assignment",
     multipleStatements: true
 })
 
@@ -18,4 +18,3 @@ mysqlConnection.connect((err)=>{
 })
 
 module.exports=mysqlConnection
-
